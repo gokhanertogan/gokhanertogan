@@ -1,6 +1,13 @@
 ### Hi, I'm Gökhan 👋
 
-Software engineer in Istanbul, working mostly in **.NET** on backend and distributed systems. I care about the parts that break quietly: concurrency, background work, messaging, and the observability around them.
+Software Development Team Lead in Istanbul with 10+ years of experience in **.NET**. I build and lead work on microservices and event-driven systems, and I care about the parts that break quietly: concurrency, background work, messaging, and the observability around them.
+
+#### Experience
+
+- **Software Development Team Lead · Boyner** (2024 – present): leading the Campaign and Basket microservices after the move from a monolith; Kafka and RabbitMQ messaging, DDD
+- **Senior Software Developer · Boyner** (2022 – 2024): e-commerce monolith covering products, basket, payments and campaigns
+- **Software Design Senior Engineer · Netaş** (2021 – 2022): unified single-card system for FIFA World Cup 2022 in Qatar (stadium access, transportation, facilities)
+- **Backend Developer · Arge Bilişim** (2019 – 2021) and **Leonardo Travel** (2017 – 2018): ERP/MRP modules; B2B and B2C hotel reservation platforms
 
 #### Open source
 
@@ -22,7 +29,15 @@ Software engineer in Istanbul, working mostly in **.NET** on backend and distrib
 
 #### Stack
 
-C# · .NET / ASP.NET Core · EF Core · PostgreSQL · SQL Server · RabbitMQ / MassTransit · SignalR · OpenTelemetry · Docker · React / TypeScript
+C# · .NET / ASP.NET Core · EF Core · Dapper · SQL Server · PostgreSQL · MongoDB · Redis · Kafka · RabbitMQ / MassTransit · SignalR · OpenTelemetry · Docker · Kubernetes · Azure · React / TypeScript
+
+#### Education
+
+- M.Sc. in Artificial Intelligence · Ahmet Yesevi University (in progress)
+- M.Sc. in Software Engineering · Ahmet Yesevi University
+- B.Sc. in Business Administration · Anadolu University (in progress)
+- B.Sc. in Management Information Systems · Anadolu University
+- B.Ed. in Computer Education and Instructional Technology · İbrahim Çeçen University
 
 #### Contact
 
