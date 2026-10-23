@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/gokhanertogan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=7C3AED&center=true&vCenter=true&width=640&lines=10%2B+years+building+software+with+.NET;Microservices+%C2%B7+Event-driven+systems+%C2%B7+DDD;Author+of+StructuredConcurrency+for+.NET;M.Sc.+student+in+Artificial+Intelligence" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=7C3AED&center=true&vCenter=true&width=640&lines=10%2B+years+building+software+with+.NET;Building+RunSignal%3A+alerts+for+background+jobs;Microservices+%C2%B7+Event-driven+systems+%C2%B7+DDD;Author+of+StructuredConcurrency+for+.NET;M.Sc.+student+in+Artificial+Intelligence" alt="Typing intro" />
   </a>
 </p>
 
@@ -22,6 +22,7 @@
 - 🧭 **Software Development Team Lead**, leading a team that owns business-critical microservices
 - 🏗️ 10+ years of .NET across e-commerce, travel, ERP and a FIFA World Cup 2022 platform
 - 🔀 I like the parts that break quietly: concurrency, background work, messaging and their observability
+- 📡 Author of **RunSignal**, cross-language observability for background jobs, with SDKs in .NET, Go, Java, Node.js and Rust
 - 🎓 M.Sc. student in **Artificial Intelligence**, B.Sc. student in **Business Administration**
 - 🤝 Mentoring, code reviews and clean, boring, reliable systems
 
@@ -30,6 +31,18 @@
 ### 🚀 Open source
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4>📡 <a href="https://github.com/gokhanertogan/RunSignal">RunSignal</a></h4>
+      <p>Cross-language workload observability and alert provisioning. Your APM alerts on HTTP 500s; RunSignal covers the work with no HTTP request: the nightly job that never started, the consumer that stopped processing, the import that "succeeded" with 0 rows. It records runs, items and heartbeats as OpenTelemetry metrics with the same names in every language, and provisions missed, failed, overrun, stalled and low-output alerts in New Relic or Prometheus from a declarative manifest.</p>
+      <a href="https://www.nuget.org/packages/RunSignal.DotNet"><img src="https://img.shields.io/nuget/v/RunSignal.DotNet?style=flat-square&logo=nuget&label=NuGet&color=004880" alt="NuGet" /></a>
+      <a href="https://pkg.go.dev/github.com/gokhanertogan/RunSignal/go"><img src="https://img.shields.io/badge/Go-pkg.go.dev-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" /></a>
+      <a href="https://www.npmjs.com/package/@runsignal/node"><img src="https://img.shields.io/npm/v/%40runsignal%2Fnode?style=flat-square&logo=npm&label=npm&color=CB3837" alt="npm" /></a>
+      <a href="https://crates.io/crates/runsignal"><img src="https://img.shields.io/crates/v/runsignal?style=flat-square&logo=rust&label=crates.io&color=000000" alt="crates.io" /></a>
+      <img src="https://img.shields.io/badge/integrations-Hangfire%20%C2%B7%20Quartz%20%C2%B7%20Spring%20Batch%20%C2%B7%20BullMQ-7C3AED?style=flat-square" alt="Integrations" />
+      <img src="https://img.shields.io/badge/backends-New%20Relic%20%C2%B7%20Prometheus-1E1B4B?style=flat-square" alt="Backends" />
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>⚡ <a href="https://github.com/gokhanertogan/StructuredConcurrency">StructuredConcurrency</a></h4>
@@ -40,6 +53,7 @@
     <td width="50%" valign="top">
       <h4>🧅 <a href="https://github.com/gokhanertogan/onion_template">onion_template</a></h4>
       <p><code>dotnet new</code> template that generates a production-ready .NET 10 microservice with zero third-party packages: mediator, validation, result pattern, outbox and permission-based auth built in.</p>
+      <a href="https://www.nuget.org/packages/OnionArchitecture.Templates"><img src="https://img.shields.io/nuget/v/OnionArchitecture.Templates?style=flat-square&logo=nuget&color=004880" alt="NuGet version" /></a>
       <img src="https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=dotnet" alt=".NET 10" />
     </td>
   </tr>
@@ -60,14 +74,18 @@
 | 🎼 | [SagaOrchestration](https://github.com/gokhanertogan/SagaOrchestration) | Orchestrated saga with a MassTransit state machine over RabbitMQ |
 | 💃 | [DistributedTransactionSagaChoreography](https://github.com/gokhanertogan/DistributedTransactionSagaChoreography) | Choreographed saga with the transactional outbox pattern |
 | 🤝 | [TwoPhaseCommitPattern](https://github.com/gokhanertogan/TwoPhaseCommitPattern) | Two-phase commit with a coordinator across Order, Payment and Stock services |
-| 🗂️ | [DataPartitioningProject](https://github.com/gokhanertogan/DataPartitioningProject) | PostgreSQL partitioning and GIN indexes, load-tested with NBomber |
+| 📜 | [EventSourcingProject](https://github.com/gokhanertogan/EventSourcingProject) | Event-sourced basket on Marten and PostgreSQL: optimistic concurrency, inline and async projections, time travel |
+| 🛡️ | [ResilientPatterns](https://github.com/gokhanertogan/ResilientPatterns) | Polly v8 resilience pipelines against a flaky service: retry with jitter, circuit breaker, timeouts, hedging, fallback, rate limiting |
+| 🛒 | [ShoppingCartProject](https://github.com/gokhanertogan/ShoppingCartProject) | Clean Architecture cart service with an append-only event log, transactional outbox and RabbitMQ integration events |
+| 🗂️ | [DataPartitioningProject](https://github.com/gokhanertogan/DataPartitioningProject) | PostgreSQL range partitioning vs. jsonb + GIN index for campaign lookups, load-tested with NBomber |
 
 ---
 
 ### 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,mongodb,redis,elasticsearch&theme=dark" alt="Languages and data" /><br />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,go,java,nodejs,rust&theme=dark" alt="Languages" /><br />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,elasticsearch,prometheus,grafana&theme=dark" alt="Data and observability" /><br />
   <img src="https://skillicons.dev/icons?i=kafka,rabbitmq,docker,kubernetes,azure&theme=dark" alt="Messaging and DevOps" /><br />
   <img src="https://skillicons.dev/icons?i=git,github,gitlab,bitbucket&theme=dark" alt="Version control" />
 </p>
@@ -115,11 +133,43 @@
     </td>
   </tr>
   <tr>
+    <td><b>📡 Observability</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
+      <img src="https://img.shields.io/badge/New_Relic-1CE783?style=flat-square&logo=newrelic&logoColor=black" alt="New Relic" />
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
+      <img src="https://img.shields.io/badge/Serilog-1E1B4B?style=flat-square" alt="Serilog" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>🌐 Polyglot (RunSignal SDKs)</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>🤖 AI / ML</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/Hugging_Face_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face Transformers" />
+      <img src="https://img.shields.io/badge/SHAP_(XAI)-7C3AED?style=flat-square" alt="SHAP" />
+    </td>
+  </tr>
+  <tr>
     <td><b>🧪 Testing & quality</b></td>
     <td>
       <img src="https://img.shields.io/badge/xUnit-1E1B4B?style=flat-square" alt="xUnit" />
       <img src="https://img.shields.io/badge/NUnit-1E1B4B?style=flat-square" alt="NUnit" />
       <img src="https://img.shields.io/badge/Moq-1E1B4B?style=flat-square" alt="Moq" />
+      <img src="https://img.shields.io/badge/Testcontainers-291A3F?style=flat-square&logo=testcontainers&logoColor=white" alt="Testcontainers" />
+      <img src="https://img.shields.io/badge/BenchmarkDotNet-1E1B4B?style=flat-square" alt="BenchmarkDotNet" />
       <img src="https://img.shields.io/badge/TDD-7C3AED?style=flat-square" alt="TDD" />
       <img src="https://img.shields.io/badge/Integration_testing-7C3AED?style=flat-square" alt="Integration testing" />
       <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqubeserver&logoColor=white" alt="SonarQube" />
@@ -135,6 +185,7 @@
       <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square" alt="Azure" />
       <img src="https://img.shields.io/badge/CI%2FCD-1E1B4B?style=flat-square" alt="CI/CD" />
       <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
     </td>
   </tr>
   <tr>
