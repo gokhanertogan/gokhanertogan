@@ -56,7 +56,7 @@
 
 | | Repo | What it shows |
 | :-: | --- | --- |
-| 🧱 | [ModulerMonolith](https://github.com/gokhanertogan/ModulerMonolith) | Modular monolith with Basket, Product and Order modules; vertical slices inside onion layers |
+| 🧱 | [ModulerMonolith](https://github.com/gokhanertogan/ModulerMonolith) | .NET 10 modular monolith: Products, Baskets and Orders modules with their own schemas, outbox-based integration events and architecture tests |
 | 🎼 | [SagaOrchestration](https://github.com/gokhanertogan/SagaOrchestration) | Orchestrated saga with a MassTransit state machine over RabbitMQ |
 | 💃 | [DistributedTransactionSagaChoreography](https://github.com/gokhanertogan/DistributedTransactionSagaChoreography) | Choreographed saga with the transactional outbox pattern |
 | 🤝 | [TwoPhaseCommitPattern](https://github.com/gokhanertogan/TwoPhaseCommitPattern) | Two-phase commit with a coordinator across Order, Payment and Stock services |
